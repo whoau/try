@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/jten.css" />
+		<script type="text/javascript" src="js/jQuery182min.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+				$(".jiaru1_zc li").each(function(index) { //带参数遍历各个选项卡
+					$(this).click(function() { //注册每个选卡的单击事件
+						$(".jiaru1_zc li.visited").removeClass("visited"); //移除已选中的样式
+						$(this).addClass("visited"); //增加当前选中项的样式
+						//显示选项卡对应的内容并隐藏未被选中的内容
+						$(".jiaru2_zc ul:eq(" + index + ")").show()
+							.siblings().hide();
+					});
+				});
+
+			};
+		</script>
+	</head>
+
+	<body>
+	<div class="outer">
+		<div class="wrapper">
+			<div class="wrap">
+				<span>Hello, Welcome to Shandong Jian Tong Engineering Technology Co., Ltd. official website!</span>
+				<div class="exchange">
+					<img src="img/cn.png" alt="" /><img style="margin-right: 0;" src="img/us.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="fix"></div>
+		<div class="tit">
+			<div class="title">
+				<div class="limg">
+					<img src="img/banner.png" alt="">
+					<span>Jian Tong Engineering Science and Technology</span>
+				</div>
+				<div class="rimg">
+					<a href=""><img src="img/QQ.png" alt="" /></a>
+					<a href=""><img src="img/weibo.png" alt="" /></a>
+					<a href=""><img src="img/weixin.png" alt="" /></a>
+				</div>
+			</div>
+			<div class="fix"></div>
+			<div style="position: relative;">
+				<div class="project">
+					<ul>
+						<li>
+							<a href="http://47.104.76.96:8002/">Home</a>
+						</li>
+						<li>
+							<a href="http://47.104.76.96:8002/about.html">About Us</a>
+						</li>
+						<li>
+							<a href="http://47.104.76.96:8002/product.html">Product Center</a>
+						</li>
+						<li>
+							<a href="http://47.104.76.96:8002/news.html">News</a>
+						</li>
+
+						<li>
+							<a href="http://47.104.76.96:8002/case.html">Success case</a>
+						</li>
+						<li>
+							<a href="http://47.104.76.96:8002/honor.html">Honor</a>
+						</li>
+						<li>
+							<a href="http://47.104.76.96:8002/contact.html">Contact us</a>
+						</li>
+					</ul>
+					<div class="ri">
+						<a href=""><img src="img/geren.png" alt="" /></a>
+						<a href=""><img src="img/sousuo.png" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="benner">
+		<img src="img/banne.png" alt="" />
+	</div>
+	<div class="fix"></div>
+	<div class="oute">
+
+			<div class="naive">
+				<p>
+					<a href="http://47.104.76.96:8002/">Home>></a><span>Product Center</span></p>
+			</div>
+			<div class="fix"></div>
+			<div class="details">
+				<div class="ds">
+					<p>PRODUCT DISPLAY</p>
+					<span>Professional To Provide One Stop Geotechnical Meterials</span>
+					<div class="tubiao"></div>
+				</div>
+				<div class="jiaru_zc">
+					<div class="jiaru1_zc">
+						<ul>
+							<li class="visited"><img src="img/duihao.png">
+								<span>Woven geotextile</span></li>
+							<li><img src="img/duihao.png">
+								<span>Woven geotextile</span></li>
+							<li><img src="img/duihao.png">
+								<span>Woven geotextile</span></li>
+							<li><img src="img/duihao.png">
+								<span>Woven geotextile</span></li>
+							<li><img src="img/duihao.png">
+								<span>Woven geotextile</span></li>
+							<li><img src="img/duihao.png">
+								<span>Woven geotextile</span></li>
+							<li><img src="img/duihao.png">
+								<span>Woven geotextile</span></li>
+							<li><img src="img/duihao.png">
+								<span>Woven geotextile</span></li>
+							<li><img src="img/duihao.png">
+								<span>Woven geotextile</span></li>
+						</ul>
+						<div class="fix"></div>
+					</div>
+					<div class="kongxi"></div>
+					<div class="jiaru2_zc">
+						<div class="bd">
+							<ul style="display:block;">
+								<li>
+									<a href="http://47.104.76.96:8002/pcneiye.html" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href="http://47.104.76.96:8002/pcneiye.html" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://47.104.76.96:8002/pcneiye.html" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+
+							</ul>
+							<ul>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.baidu.com" class="a">
+										<div class="tab">
+											<div class="pim">
+												<div class="pri"><img src="img/cp.png"></div>
+												<div class="try">
+													<h4>LDPE GEOMEMBRANCE</h4>
+													<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												</div>
+											</div>
+											<div class="try1">
+												<h4>LDPE GEOMEMBRANCE</h4>
+												<span>features excellent puncture resistance and weather resistance is used for pools, canals, landfill, tunnel, landscape, mining, etc.</span>
+												<div class="dt">
+													<span>MORE</span><img src="img/right.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="fix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="fix"></div>
+		</div>
+		<div class="number">
+			<div class="page">
+				<a href=""> PREVIOUS PAGE</a>
+				<a href="">1</a>
+				<a href="">2</a>
+				<a href="">3</a>
+				<span>...</span>
+				<a href="">40</a>
+				<a href="">NEXT PAGE</a>
+			</div>
+		</div>
+		<div class="fix"></div>
+		<div class="Ybox8">
+			<div class="container">
+				<div class="Ybox81">
+					<img src="img/biao.png" />
+					<h2>Jian Tong Engineering Technology</h2>
+					<p>Telephone：400-0307772 400-0307776 13290295971 Mail box: jitonggservice @ 163. com Address: rural road, Dezhou city, Shan
+					</p>
+					<p>Privacy Policy Terms of use Law Sitemap</p>
+					<p class="ybop">Shandong Jian Tong Engineering Technology Co., Ltd. All rights reserved · ICP record number: 鲁 ICP 备 09073536 号 -40</p>
+				</div>
+			</div>
+		</div>
+		<!--<div class="bottom">
+			<div class="foot">
+				<img src="img/图层16.png" alt="" />
+				<h2>JIAN TONG ENGINERRING TECHNOLOGY</h2>
+				<p>
+					<span>Telephone:400-0307772 400-0307776 13290295971</span>
+					<sapn>Mail box:jintongservice@163.com</sapn>
+					<span>Address:rural road ,Dezhou City ,shan-</span>
+				</p>
+				<p>
+					<a href="">Privacy Policy</a>
+					<a href="">Terms of use law</a>
+					<a href="">Sitemap</a>
+				</p>
+			</div>
+			<footer>
+				<span class="er">	Shandong Jian Tong Engineering Technology Co., Ltd.All rights reserved ·ICP 鲁ICP 备09073536号-40</span></footer>
+		</div>-->
+
+	</body>
+
+</html>
