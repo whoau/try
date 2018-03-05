@@ -1,0 +1,237 @@
+*{margin: 0px;padding:0px;}
+li{list-style:none ;}
+a{text-decoration: none; color: #000000;font-family: "微软雅黑";}
+h1,h2,h3,h4,h5,span,p{font-family: "微软雅黑"; }
+.container{width: 1000px;margin: 0px auto;}
+img {border: none;}
+.Ycl{clear: both;}
+.ytt{background: #f8f8f8;}
+.ytt .container .ytto{height: 30px;line-height: 30px;}
+.ytt .container .ytto span{font-size: 14px;color: #8e8e8e;}
+.top{height: 55px;padding-top: 15px;}
+.logo {float: left;width: 7%;}
+.ywebDesc {float: left;width: 78%;padding-top: 10px;}
+.hotPhone {float: right;width: 15%;padding-top: 15px;text-align: right;}
+.hotPhone img{width: 38px;}
+.top .container .ywebDesc span{font-size: 31px;font-weight: bold;}
+.container1{margin: 0px auto;width:1000px ;position: absolute; z-index: 99;}
+.con{height: 80px;padding: 15px 0px 0px 0px;}
+.ynav{height: 80px;}
+.ynav li{list-style:none ;float: left;height: 80px;line-height:80px;padding-right: 35px;padding-left: 35px;}
+.ynav li a{display: inline-block;font-size: 14px;}
+.ynav li a:hover{color:white ;}
+.ynav .yq7{height: 80px;line-height:80px;padding-left: 15px;margin-right: 0px;}
+.ynav .yq8{float: right;height: 80px;line-height:80px;padding-right: 0px;padding-left: 15px;margin-right: 0px;}
+.ac{background: url(../images/duobx.png) no-repeat center;}
+.ac2{background: url(../images/yproduct-center.png) no-repeat center;}
+.ac3{background: url(../images/yproduct-center.png) no-repeat center;}
+.ac4{background: url(../images/ynews.png) no-repeat center;}
+.ac5{background: url(../images/yproduct-center.png) no-repeat center;}
+.ac6{background: url(../images/yhonor.png) no-repeat center;}
+.ac7{background: url(../images/yproduct-center.png) no-repeat center;}
+.ac8{background: url(../images/yproduct-center.png) no-repeat  center center;}
+.slideBox{width: 100%;height: 500px;overflow: hidden;position:relative ;top: 66px;}
+.hd {position: absolute;right: 49%;bottom: 15px;text-align: center;padding-top: 10px;}
+.hd li { display: inline-block;width: 14px;height: 14px;margin: 0 5px;background: #d2d2d2;
+    border: 1px solid #ccc;border-radius: 14px; cursor: pointer; zoom: 1;}
+.hd li.on { width: 52px; height: 14px; background: #fff;border: 1px solid #fff;}
+.slideBox .bd{zoom: 1;vertical-align: middle;}
+.slideBox .bd img{width: 100%;height: 500px;display: block}
+.slideBox .bf{display: none;}
+.slideBox .prev {position: absolute;left: 3%;top: 50%;margin-top: -25px;display: block; width: 56px;height: 56px;background: url(../images/ypre.png);filter: alpha(opacity=50);opacity: 0.5;}
+.slideBox .next { left: auto;right: 3%;background-position: 8px 5px;}
+.slideBox .next {position: absolute; right: 3%;top: 50%;margin-top: -25px; display: block;width: 56px;height: 56px;background: url(../images/ynex1.png); filter: alpha(opacity=50); opacity: 0.5;}
+.ycomp{color:#222222;width: 300px;margin: 55px auto;font-size: 30px;font-family: "微软雅黑";font-weight: bold;margin-top: 130px;background:url(../images/ycomp1.png)   no-repeat  bottom center;padding-bottom: 20px;}
+.ycomin{height: 310px;position: relative;margin-bottom: 55px;}
+.ycomin-lef{position: absolute;top:30px;left:0px}
+.ycomin-right{float: right;width: 580px;background: #f8f8f8;height: 310px;padding: 35px 20px 35px 80px;box-sizing: border-box;}
+.ycomin-right1{font-size: 25px; font-weight: bold;color: #1478d6;font-family: "微软雅黑"}
+.ycomin-right2{width: 321px;height:20px;border-bottom: 1px solid #000;}
+.ycomin-right3{height: 142px;padding-top:15px;font-size: 14px;}
+.ycomin-right31{width:360px ;height: 98px;font-family: “微软雅黑”;}
+.ybox1{width: 100%;height: 318px;background:url(../images/ybo1.png) center;margin-bottom: 50px;}
+.ybox11{padding-top: 45px;}
+.ybox111{width: 550px; height: 90px;margin:0px auto ;text-align: center;}
+.ybox111 h1{color: #ffffff;font-size: 30px;font-weight: bold;margin-bottom: 10px;text-align: center;}
+.ybox111 h2{width: 80px;height:10px;margin: 0px auto;border-bottom: 4px solid white;}
+.ybox111 h3{color: white;font-size: 14px;font-weight: bold;}
+.ybox12{width: 1000px;height: 130px;}
+.ybox121{width: 850px;margin: 10px auto;height: 130px;}
+.ybox121-u{padding-top: 25px;height: 120px;}
+.ybox121-u li{float: left;width: 28%;height: 30px;margin-left: 5%;background: url(../images/ypxz.png) no-repeat;text-indent: 2em}
+.ybox121-u li a:hover{color: #1476d2;}
+.ybox121-u li a{color: #f8f8f8;font-size: 12px;}
+.ybox2{width: 1000px;}
+.ybox2-u .ybox2-li{float: left;width: 315px; height:400px;overflow:hidden;margin-right: 18px;position:relative;margin-bottom: 25px;}
+.ybox2-u .ybox2-lia img{width: 315px;height:400px;overflow:hidden; }
+.ybox2-lib{background:#2e81cf;width: 315px;height:400px;overflow:hidden;box-sizing:border-box;text-align: center;padding: 100px 20px 100px 20px;}
+.ybox2-lib1{text-align: center;}
+.ybox2-lib2{color: #f8f8f8;text-align:justify;margin-top: 20px;  }
+.ybox2-lib2 p{height:25px;line-height:25px;font-size: 15px;}
+.ybox2-lib3{position: absolute;top:0px;left:0px}
+.ybox3,.ybox4,.ybox5,.ybox6,.ybox7,.ybox8,.ybox9{display: none;}
+.Ybox2 {height:840px;margin-bottom: 80px;}
+.Ybox3 {height: 640px;width: 100%;background: url(../images/ybox3.png) center;}
+#ycl{clear: both;}
+.ybox-ca1{width:850px;margin: 0px auto;text-align: center;padding-top: 40px;height: 220px;}
+.ybox-ca1 h1{color: white;font-size: 30px;}
+.ybox-ca1 h2{width:80px;height: 15px;border-bottom: 4px solid white;margin: 0px auto;margin-bottom: 45px;}
+.ybox-ca1 h3{font-size: 12px;color: white;height: 20px;line-height: 20px;	}
+.ybox-ca2-u .ybox-ca2-li{float: left;width: 242px; height:233px;overflow:hidden;margin-right: 8px;position:relative;margin-bottom: 25px;}
+.ybox-ca2-u .ybox-ca2-li  .ybox-ca2-lia{width: 245px; height:250px;overflow:hidden; }
+.ybox-ca2-u .ybox-ca2-li .ybox-ca2-lia img{width: 245px; height:220px;overflow:hidden;}
+.ybox-ca2-lib{background: url(../images/ycas2.png) no-repeat center;width: 245px; height:233px;overflow:hidden;box-sizing:border-box;text-align: center;padding: 65px 20px ;}
+.ybox-ca2-lib2{color: #f8f8f8;font-size: 15px;text-align: left; }
+.ybox-ca2-lib2 p{height: 30px;line-height: 30px;text-align: center;}
+.ybox2-lib3{position: absolute;top:0px;left:0px}
+.ybox3,.ybox4,.ybox5,.ybox6,.ybox7,.ybox8,.ybox9,.ybox10{display: none;}
+.ybox-ca3{height: 95px;overflow: hidden;position: relative;}
+.ybox-ca3 .ybox-ca31{width:750px ; height: 95px;overflow: hidden;float: left;}
+.ybox-ca3 .ybox-ca31 h4{color: white;font-size: 18px;margin-bottom: 10px;}
+.ybox-ca3 .ybox-ca31 span{color: white;font-size: 14px;}
+.ybox-ca3 .ybox-ca35{width:140px ; height: 95px;overflow: hidden;float: right;text-align: right; padding: 40px 10px;}
+.ybox-ca2{height: 260px;}
+.ybox-ca32,.ybox-ca33,.ybox-ca34{position: absolute;top:0px;left:0px;display: none;}
+.Ybox4{height: 722px;padding: 50px 0px;overflow: hidden;box-sizing: border-box;}
+.Ybox41{width: 290px;margin: 0px auto;margin-bottom: 60px;}
+.Ybox41 h3{font-size: 31px;width: 360px;margin: 0px auto;}
+.Ybox41 h2{height: 10px;width: 80px;border-bottom: 4px solid #1478d6;margin: 0px auto;margin-bottom: 40px;}
+.Ybox42{width: 1000px;height:520px;margin-bottom: 40px;}
+.Ybox421{float: left;width:316px ;height: 520px;overflow: hidden;margin-right:15px;}
+.Ybox421 img{ width:316px ;height: 190px;}
+.Ybox421 h4{font-size: 14px;margin-bottom: 3px;white-space : nowrap ;text-overflow:ellipsis;overflow:hidden;}
+.Ybox421 h5{ margin-top:5px;color:#d3d3d3;font-size: 14px;margin-bottom: 3px;font-weight: normal;}
+.Ybox421 span{margin-top:5px;font-size: 14px;margin-bottom: 3px;font-weight: normal;width: 275px;height: 130px;overflow: hidden;color:#4a4a4a;}
+.Ybox421:hover .Ybox421-2{box-shadow: 6px 6px 10px 3px #ccc;-webkit-box-shadow: 6px 6px 10px 3px #ccc;-moz-box-shadow:6px 6px 10px 3px #ccc; }
+.Ybox421:hover .Ybox421-2 h4{color: white;}
+.Ybox421:hover h5{color: white;}
+.Ybox421:hover span{color: white;}
+.Ybox421-2{padding: 20px;height:180px;overflow: hidden;}
+.Ybox43{padding-right:20px;display:none;width: 120px;height: 40px;margin: 0px auto;text-align: center;margin-top:50px ;}
+.Ybox43 img{width: 108px;height:35px; }
+.Ybox5{background: #333333;height: 488px;padding-top: 45px;overflow: hidden;box-sizing: border-box;}
+.Ybox51{height: 100px;}
+.Ybox511{width: 135px;height: 40px;margin: 0px auto;}
+.Ybox511 h1{color: white;}
+.Ybox511 h2{height: 14px;width: 80px;margin: 0px auto;border-bottom: 5px solid white;}
+.Ybox52{height: 385px;overflow: hidden;}
+.Ybox52-ul li{float: left;width: 235px;height:283px;margin-left: 13px;overflow: hidden;position: relative;}
+.Ybox52-ul li img{ width: 235px;height:283px;overflow: hidden;}
+.Ybox52-lib{width: 235px;height:283px; overflow: hidden;background-color:rgba(73,147,216,0.8);text-align: center;}
+.Ybox52-libspe{position: absolute;left:0px;top:0px;}
+.Ybox52-lib1{ color: white;font-size: 24px;text-align: center;vertical-align: middle;width: 235px;height:283px;line-height:283px ; overflow: hidden;font-weight: bold;box-sizing: border-box;}
+.Ybox6{height:380px;overflow: hidden;}
+.Ybox61{height: 230px;overflow: hidden;margin: 0px auto;box-sizing: border-box;padding-top: 50px;}
+.Ybox61 h1{width: 220px;margin: 0px auto;}
+.Ybox61 h2{width: 75px;height: 10px;border-bottom: 5px solid #1478d6;margin: 0px auto;margin-bottom: 40px;}
+.Ybox61 p{width: 480px;height: 10px;color:#1478d6;font-size:24px;font-weight:bold;margin: 0px auto;margin-bottom: 40px;}
+.Ybox62-lef1{float: left;width: 315px;height: 145px;border: 1px solid #888888;padding: 35px 15px 30px 15px;box-sizing: border-box;margin-right:18px ;}
+.Ybox62-lef11{float: left;width: 80px;height: 63px;padding-top: 5px;}   
+.Ybox62-lef12{float: left;width: 200px;font-size: 16px;font-weight: bold;color:#888888 ;}
+.Ybox62-lef12{}
+.Ybox62 li{width: 316px;height: 146px;overflow: hidden;float: left;margin-right: 15px;}
+.Ybox62 li:hover span{color: #1478d6;}
+.Ybox62 li:hover p{color: #1478d6;}
+.Ybox62-lef1:hover{color: #1478d6;border: 1px solid #1478D6;}
+.Ybox62-lef11{position: relative;}
+.Ybox62-lef11-1{position: absolute;top:5px;left:0px;}
+.yabtop{position: absolute;top:5px;left:0px;}
+.Ybox7{width:720px;height: 125px ;margin:20px auto;}
+.Ybox7 img{margin: 0px 34px;vertical-align: middle;}
+.Ybox7 span{font-size: 16px;color: #8c8c8c;}
+.Ybox8{height: 212px;background:#333333 ;padding-top: 17px;box-sizing: border-box;}
+.Ybox81{width: 918px;margin: 0px auto;text-align: center;}
+.Ybox81 p,h2{color: white;}
+.Ybox81 h2{font-size: 18px;margin-bottom: 13px;}
+.Ybox81 p{font-size: 14px;margin-bottom: 5px;}
+.ybop{margin-top: 20px;}
+
+
+
+/*case页面*/
+.ycasbox1{padding-top: 105px;}
+.ycasbox11 a{font-size: 14px;font-weight: bold;}
+.ycasbox11 a:last-child{color: #1478d6;}
+.ycasbox12{padding-top: 64px;width: 250px;margin: 0px auto;}
+.ycasbox12 h1{font-size: 31px;margin-bottom: 10px;color: #222222;}
+.ycasbox12 h4{font-size:14px;font-weight: normal;width: 200px;margin: 0px auto;color: #22222;}
+.ycasbox12 h5{height:15px;border-bottom: 4px solid #000;width: 75px;margin: 0px auto;}
+.ycasbox13{margin-top:80px;width:780px;margin: 0px auto;padding-top: 75px;}
+.ycasbox131{width: 207px;height: 52px;line-height:52px;margin-right: 41px;float: left;background:#f9fafd ;text-align: center;border-radius:10px;font-size: 19px;color: #4a4a4a;}
+.ycasbox131:hover{background:#1478d6;color: white;}
+.Ybox421-cas{background: #f9fafd;border-radius: 15px;height: 462px;float: left;position: relative;width: 316px;margin-bottom: 24px; overflow: hidden;margin-right: 15px;}
+.Ybox421-cas-1{height:195px;overflow: hidden;}
+.Ybox421-cas-1 img{width:317px;height:195px;overflow: hidden;}
+.Ybox421-cas-2 {box-sizing: border-box;padding: 20px;height: 266px; overflow: hidden;}
+.Ybox421-cas-21{height: 100px;overflow: hidden;}
+.Ybox421-cas-21 h4{font-size: 18px;text-align: left;height: 30px;line-height: 30px;}
+.Ybox421-cas-2 h5{margin-bottom: 15px;}
+.Ybox421-cas-2 p{width: 100%;overflow: hidden;height:30px;}
+.Ybox421-cas-3{background: url(../images/ymor-cas1.png) no-repeat;width: 130px;height:40px;position: absolute;bottom:22px;left:25%;}
+.Ybox421-cas:hover{background: #1478d6;}
+.Ybox421-cas:hover h4{color: white;}
+.Ybox421-cas:hover h5{color: white;}
+.Ybox421-cas:hover p{color: white;}
+.Ybox421-cas:hover .Ybox421-cas-3{background: url(../images/ymor-cas2.png) no-repeat;width: 130px;height:40px;position: absolute;bottom:22px;left:25%;}
+.Ybox4-case{padding: 50px 0px;overflow: hidden;box-sizing: border-box;}
+.Ybox42-case{height:1930px;width: 1000px;overflow: hidden;}
+.Ybox43-cas{width: 1000px;margin-bottom:18px; height: 40px;text-align: center;margin-top: 30px;}
+.Ybox43-cas1{width: 530px;margin: 0px auto;}
+.Ybox43-cas1 a{display: inline-block;height:40px;line-height: 40px;}
+.ypag span{border: 1px solid #c9c9c9;display: inline-block;width: 40px;height:40px;line-height: 40px;text-align: center;}
+.ypag span:hover{background: #3e96f1;color: white;}
+.yprv-pa,.yprv-ne{color: #494a4b;}
+.Ybox4-casinn h2{color: #222222;width:600px;margin: 0px auto;font-size: 24px;margin-bottom:15px;margin-top: 45px;}
+.Ybox4-casinn1{text-align: justify;}
+.Ybox4-casinn span{color: #4a4a4a;text-indent: 2em;height:24px;line-height:24px;font-size: 14px;}
+.Ybox4-casinn2 {width: 900px;height: 560px;margin: 36px auto;overflow: hidden;}
+.Ybox4-casinn2 img{width: 900px;height: 560px;}
+
+/*contact-us*/
+.Ybox4-cont{margin-top: 75px;margin-bottom: 45px;}
+.Ybox4-cont-lef{float: left;width: 348px;height: 441px;overflow: hiden;}
+.Ybox4-cont-rig{float:right;width: 650px;height: 441px;overflow: hiden;}
+input{width: 650px;height:35px;margin-bottom: 15px;background-color:red;border: none;}
+textarea{width: 650px;height:205px;margin-bottom: 20px; background: url(../images/con-mea.png) no-repeat 10px 5px;text-indent: 3em;box-sizing: border-box;padding: 10px 0px 0px 2px;font-family: monospace;background-color:#f8f8f8;border: none;}
+.Ybox4-cont-lef h2{color: #222222;}
+.Ybox4-cont-rig h2{color: #222222;}
+.Ybox4-cont-lef h3{border-bottom: 3px solid #1478d6;width: 40px;height: 10px;margin-bottom: 18px;}
+.Ybox4-cont-rig h3{border-bottom: 3px solid #1478d6;width: 40px;height: 10px;margin-bottom: 18px;}	
+.Ybox4-cont-lef p{font-size: 14px;margin-top: 24px;color:#4a4a4a;}
+.Ybox4-cont-lef p strong{font-size: 16px;}
+.Ybox4-cont-lef span{font-size: 14px;color:#4a4a4a;}
+.con-na{background: url(../images/cont-adm.png) no-repeat 10px 5px;text-indent:3em;background-color:#f8f8f8;}
+.con-em{background: url(../images/con-email.png) no-repeat 10px 5px;text-indent: 3em;background-color:#f8f8f8;}
+
+
+/*about us*/
+.Ybox4-about {width: 1000px;margin-top: 75px;margin-bottom: 33px;}
+.Ybox4-about p{font-size: 14px;height:24px;line-height: 24px;color: #4A4A4A;text-align: justify;}
+.Ybox4-about-lef {float: left;width: 480px;height: 300px;overflow: hiden;}
+.Ybox4-about-lef h2{color: #222222;font-size: 24px;font-weight: normal;width:395px;margin-bottom: 37px;}
+.Ybox4-about-rig {float: right;width: 483px;height: 300px;overflow: hiden;}
+.Ybox4-about-rig img{width: 483px;height: 300px;overflow: hiden;}    
+.Ybox5-about {height:269px;overflow: hidden;margin-bottom: 33px; }   
+.Ybox6-about1,.Ybox6-about2,.Ybox6-about3,.Ybox6-about4{text-align: justify;margin-bottom: 23px;}
+.Ybox6-about1 span,.Ybox6-about2 span,.Ybox6-about3 span,.Ybox6-about4 span{font-size: 14px;height:24px;line-height: 24px;color: #4A4A4A;}  
+.Ybox6-about{margin-bottom: 60px;}  
+
+/*news*/
+.Ybox4-new {margin: 50px 0px;}
+.Ybox42-new{height: 1290px;width: 1000px;overflow: hidden;}
+.Ybox421-new {background: #f8f8f8;box-sizing: border-box;width: 318px;height:302px; float: left; margin-bottom: 24px; overflow: hidden;margin-right: 15px;}
+.Ybox421-date{padding: 25px 25px 0px 25px;}
+.Ybox421-new :hover{background: #1476d2;}
+.Ybox421-new :hover p{color: white;}
+.Ybox421-new :hover span{color: white;}
+.Ybox421-new :hover h2{color: white;border-bottom: 1px solid #FFFFFF;}
+.Ybox421-new :hover h3{color: white;border: 1px solid #FFFFFF;}
+.Ybox421-new-1{width: 321px;height:302px;}
+.Ybox421-new-1{text-align: center;}
+.Ybox421-new-1 span{color: #989898;}  
+.Ybox421-new-1 h2{width: 33px;height: 10px;border-bottom: 1px solid #989898;margin:0px auto;margin-bottom: 22px;}
+.Ybox421-new-1 p{color: #222222;  }  
+.Ybox421-new-tit{height: 68px;overflow: hidden;margin-bottom: 18px;padding:  0px 25px;}
+.Ybox421-new-intr{text-overflow:ellipsis; display: -webkit-box;-webkit-box-orient: vertical; -webkit-line-clamp: 3;overflow: hidden;height: 65px;overflow: hidden;margin-bottom: 18px;padding:  0px 25px;}
+.Ybox421-new-1 h3{margin: 0px auto;font-weight: normal;border: 1px solid #989898;width: 83px;height: 27px;line-height: 27px;color: #222222;font-size: 12px;}
+
