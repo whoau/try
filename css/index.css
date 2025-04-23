@@ -3,7 +3,7 @@ li{list-style:none ;}
 a{text-decoration: none; color: #000000;font-family: "微软雅黑";}
 h1,h2,h3,h4,h5,span,p{font-family: "微软雅黑"; }
 .container{width: 1000px;margin: 0px auto;}
-img {border: none;}
+img {border: none; padding:0;}
 .Ycl{clear: both;}
 .ytt{background: #f8f8f8;}
 .ytt .container .ytto{height: 30px;line-height: 30px;}
